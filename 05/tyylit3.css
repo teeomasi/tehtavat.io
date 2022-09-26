@@ -4,6 +4,11 @@ body{
   color: white;
   background-image: url(https://blog.nwf.org/wp-content/blogs.dir/11/files/2015/12/white-collar_Pat-Roque.jpg);
   background-size: 1500px;
+
+  width: 90%;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 aside {
@@ -45,7 +50,7 @@ nav{
 }
 footer {
   background-color: black;
-  width: 10%;
+  width: 13%;
   padding: 10px;
   opacity: 0.7;
 }
