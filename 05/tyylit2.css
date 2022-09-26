@@ -1,0 +1,28 @@
+body {
+  font-family:monospace;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/168/569/original/abstract-blue-sky-background-with-tiny-clouds-free-photo.jpg);
+  background-size: 2000px;
+  color: black
+}
+h2 {background-color: white; border-style: outset;border-radius: 10px; text-align: center;
+
+}
+p{ background-color: white; border-style: outset;border-radius: 10px;
+}
+h1 {
+  background-color: white; border-style: outset;border-radius: 10px; text-align: center;
+}
+h4 {
+  background-color: white; border-style: outset;border-radius: 10px;text-align: center;
+}
+.linkki {
+  border-style: outset ; width: 50px; height: 20px;background-color: white; border-radius: 10px;
+}
+
+img {
+  border-style: outset; padding: 10px; background-color: white;
+}
+figcaption {
+  background-color: white; border-style: outset;border-radius: 10px;width: 200px;height: 20px;
+
+}
