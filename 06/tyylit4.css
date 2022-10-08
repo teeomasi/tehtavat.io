@@ -1,9 +1,9 @@
 body {
-background-color: : white;
+background-color: white;
   font-family: monospace;
   color: white;
-  background-size: 1600px;
-  width: 100%;
+background-size: 1600px;
+  width: auto;
 
 }
 
@@ -12,6 +12,8 @@ aside {
     float: right;
     background-color: black;
     padding-left: 15px;
+    padding-right: 15px;
+
     opacity: 0.7;
     color: white;
 }
@@ -41,10 +43,9 @@ a:hover {
   height: 1200px;
   width: 130px;
   float: left;
-  width: 33.33%
+  width: 10%;
   opacity: 0.7;
   text-decoration: none;
-  text-align: ;
 }
 
 .otsikko1 {
