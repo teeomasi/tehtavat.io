@@ -3,7 +3,7 @@ background-color: : white;
   font-family: monospace;
   color: white;
   background-size: 1600px;
-  width: 90%;
+  width: 100%;
 
 }
 
@@ -22,16 +22,20 @@ header {
   padding: 10px;
   width: 100%;
 }
-.vertical{
+.horizontal{
   background-color: black;
   height: 50px;
   opacity: 0.7;
-  text-align: ;
   width: 100%;
   padding: 10PX;
-  text-decoration: none;
+  text-align: center;
+
 }
-.horizontal {
+a:hover {
+  color: red;
+}
+
+.vertical {
   background-color: grey;
   text-decoration: none;
   height: 1200px;
@@ -41,9 +45,10 @@ header {
   opacity: 0.7;
   text-decoration: none;
   text-align: ;
-
 }
+
 .otsikko1 {
+  padding-left: 100px;
   background-color: white;
   text-align: center;
   width: 66%;
