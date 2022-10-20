@@ -2,6 +2,15 @@
 .row{
   color: white;
   background-color: black;
+
+}
+.col-lg-9 {
+border-style: solid;
+  border-color: white;
+  border-right: 0px;
+  }
+.col-lg-3 {
+  border-style: solid;
 }
 html {
   position: relative;
@@ -9,7 +18,7 @@ html {
 }
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
-
+background-color: rgb(4, 4, 4);
 }
 
 h2 {
