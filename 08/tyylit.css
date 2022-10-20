@@ -1,8 +1,5 @@
-navbar {
-  padding-top: 10px;
-  
-}
-.col-md-4 {
+
+.row{
   color: white;
   background-color: black;
 }
@@ -12,6 +9,11 @@ html {
 }
 body {
   margin-bottom: 60px; /* Margin bottom by footer height */
+
+}
+
+h2 {
+  text-align: center;
 }
 .footer {
   position: absolute;
@@ -28,6 +30,7 @@ body {
 
 body > .container {
   padding: 60px 15px 0;
+
 }
 .container .text-muted {
   margin: 20px 0;
@@ -36,4 +39,8 @@ body > .container {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+hr { border: 0; border-top: 1px solid #dee2e6; }
+.col-4 {
+  color: white;
 }
