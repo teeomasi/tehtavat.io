@@ -43,3 +43,41 @@ background-color: green;
 .box8{
   background-color: tomato;
 }
+
+
+
+
+
+.wum {
+  color: #f1cf63;
+  font-family: Open Sans Condensed, sans-serif;
+  text-align: center;
+  background-image: url(/images/typesource/beach.jpg);
+  background-color: #cbc5b6;
+  background-size: cover;
+  line-height: 3em;
+  padding-top: 16em;
+  padding-bottom: 18em;
+}
+
+.wum-r1 {
+  font-size: 8.7em;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-transform: uppercase;
+}
+
+.wum-small {
+  font-family: Pacifico;
+  font-weight: 400;
+  font-size: 0.37em;
+  line-height: 1.35em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -0.44em;
+  padding-right: 0.2em;
+  border: 0.3em solid #f1cf63;
+  border-right: 0;
+  border-left: 0;
+  text-transform: lowercase;
+}
