@@ -1,0 +1,14 @@
+
+
+
+.isolaatikko {
+  border-style: solid;
+height: 200px;
+width: 1000px;
+
+}
+.pikkulaatikko {
+  border-style: solid;
+  height: 100px;
+  width: 450px;
+}
