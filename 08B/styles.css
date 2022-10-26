@@ -32,6 +32,7 @@ padding: 25px;
 .box1{
 background-color: rgb(38, 0, 255);
 height: 500px;
+padding-top: 180px;
 font-size: 75px;
 color: rgb(255, 255, 255);
 }
