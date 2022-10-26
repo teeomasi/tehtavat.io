@@ -12,6 +12,12 @@ background-color: black;
 padding-left: 25px;
 padding-right: 25px;
 }
+.wrapper1 {
+  margin-top: 40px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 .wrapper {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
@@ -100,7 +106,7 @@ background-color: green;
   border-left: 0;
   text-transform: lowercase;
 }
-h1 {
+.h1 {
 
 text-align: center;
 
