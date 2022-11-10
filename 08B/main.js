@@ -1,9 +1,9 @@
-const ToTop = document.querySelector(".to-top");
+const toTop = document.querySelector(".to-top");
 
 window.addEventListener("scroll", () => {
-  if (window.pageYoffset > 100) {
-ToTop.classlist.add("active");
-} else {
-  ToTop.classList.remove ("active");
-}
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
 })
