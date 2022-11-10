@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 h1 {
   text-align: center;
   color: white;
@@ -182,7 +184,7 @@ text-align: center;
 }
 
 /* mobiili */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .wrapper {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr)
@@ -199,6 +201,25 @@ text-align: center;
   body {
     padding: 10px;
   }
+  .slider {
+    max-width: 500px;
+    max-height: 350px;
+  }
+  .navigation-manual {
+    max-width: 500px;
+    max-height: 350px;
+  }
+  .slide img {
+    max-width: 500px;
+    max-height: 350px;
+  } 
+  
+
+.navigation-manual {
+  position: absolute  
+     right: 300px;
+     bottom: -3300px;
+}
 }
 /* page up nappula */
 
@@ -225,19 +246,23 @@ text-align: center;
   bottom:32px;
   pointer-events: auto;
   opacity:1;
+
 }
 
+
 /* kuva slider */
+
 .slider{
-  width: 800px;
-  height: 500px;
-  border-radius: 10px;
+  width: 1000px;
+  height: 700px;
+  border-radius: 80px;
   overflow: hidden;
+  
 }
 
 .slides{
   width: 500%;
-  height: 500px;
+  height: 700px;
   display: flex;
 }
 
@@ -251,22 +276,22 @@ text-align: center;
 }
 
 .slide img{
-  width: 800px;
-  height: 500px;
+  width: 1000px;
+  height: 700px;
 }
 
 /*css for manual slide navigation*/
 
 .navigation-manual{
   position: absolute;
-  width: 800px;
+  width: 1000px;
   margin-top: -40px;
   display: flex;
   justify-content: center;
 }
 
 .manual-btn{
-  border: 2px solid #40D3DC;
+  border: 2px solid #ff0000;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -278,7 +303,7 @@ text-align: center;
 }
 
 .manual-btn:hover{
-  background: #40D3DC;
+  background: #ffffff;
 }
 
 #radio1:checked ~ .first{
@@ -297,40 +322,5 @@ text-align: center;
   margin-left: -60%;
 }
 
-/*css for automatic navigation*/
 
-.navigation-auto{
-  position: absolute;
-  display: flex;
-  width: 800px;
-  justify-content: center;
-  margin-top: 460px;
-}
 
-.navigation-auto div{
-  border: 2px solid #40D3DC;
-  padding: 5px;
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.navigation-auto div:not(:last-child){
-  margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #40D3DC;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2{
-  background: #40D3DC;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3{
-  background: #40D3DC;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4{
-  background: #40D3DC;
-}
-      
