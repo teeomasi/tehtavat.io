@@ -12,17 +12,20 @@ background-color: black;
 padding-left: 35px;
 padding-right: 35px;
 }
-.wrapper1 {
-  margin-top: 40px;
-  color: white;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+
+.container {
+color: black;
+padding-top: 60px;
+padding-bottom: 60px;
 }
-.job {
-  margin: 0 8px;
+h4 {
+  font-size: 40px;
 }
-p {
-  margin: 0;
+
+
+.background {
+  background-color: white;
+  border-radius: 80px;
 }
 .wrapper {
 display: grid;
@@ -40,6 +43,7 @@ grid-column: span 2;
 .grid-row-span-2 {
   grid-row: span 2;
 }
+
 
 
 /* laatikot */
@@ -62,6 +66,7 @@ color: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   font-size: 75px;
   height: 243px;
+  padding: 60px;
   color: white;
 }
 .box3{
@@ -69,6 +74,7 @@ color: rgb(255, 255, 255);
 font-size: 75px;
 color: rgb(255, 255, 255);
 height: 243px;
+padding: 60px;
 }
 .box4{
   background-color: rgb(255, 255, 255);
@@ -182,9 +188,7 @@ text-align: center;
     grid-template-rows: repeat(1, 1fr)
 
   }
-  .wrapper1 {
-    grid-template-columns: repeat(1, 1fr);
-  }
+  
   .wrapper2 {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -199,7 +203,7 @@ text-align: center;
 /* page up nappula */
 
 .to-top {
-  background: white;
+  background: rgb(255, 0, 0);
   position: fixed;
   bottom: 16px;
   right:32px;
