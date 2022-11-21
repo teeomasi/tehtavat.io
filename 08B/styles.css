@@ -59,7 +59,7 @@ padding-bottom: 100px;
 background-color: rgb(8, 0, 255);
 height: 500px;
 padding-top: 180px;
-font-size: 75px;
+font-size: 100px;
 color: rgb(255, 255, 255);
 }
 .box1:hover{
@@ -96,8 +96,8 @@ font-size: 75px;
 .box6{
   background-color: rgb(255, 115, 0);
   height: 500px;
-  font-size: 75px;
-padding-top: 200px;
+  font-size: 100px;
+padding-top: 180px;
 
 }
 .box6:hover{
@@ -222,6 +222,7 @@ text-align: center;
     .box {
 height: 200px;
 padding: 45px;
+font-size: 75px;
     }
   } 
   
@@ -330,7 +331,15 @@ padding: 45px;
 }
 
 
-
+/*Linkki*/
+a:link{
+   text-decoration: none;
+ }
+ a:hover {
+   color: white; }
+  a {
+    color: white;
+  }
 
 
 
