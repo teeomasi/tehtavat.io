@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 h1 {
   text-align: center;
@@ -358,12 +359,15 @@ a:link{
   }
 
 
+/*contact*/
+.contact {
+  text-align: center;
+  font-size: 20px;
+}
 
-
-
-
-
-
+h2 {
+font-size: 75px;
+}
 
 
 
