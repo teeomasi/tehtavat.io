@@ -2,6 +2,9 @@ html, body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+.otsikko {
+
+}
 h1 {
   text-align: center;
   color: white;
@@ -27,9 +30,11 @@ h4 {
 
 
 .background {
-  background-color: white;
+  background-color: orange;
   border-radius: 80px;
 }
+
+
 .wrapper {
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -431,3 +436,11 @@ font-size: 75px;
 .ig {
   background-color: red;
 }
+
+
+
+
+
+
+
+
