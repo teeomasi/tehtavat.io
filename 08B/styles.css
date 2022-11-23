@@ -12,8 +12,8 @@ font-size: 100px;
 body {
   font-family: 'Open Sans', sans-serif;
 background-color: black;
-padding-left: 35px;
-padding-right:35px;
+padding-left: 100px;
+padding-right:100px;
 }
 
 .container {
@@ -60,7 +60,7 @@ padding-bottom: 100px;
 background-color: rgb(8, 0, 255);
 height: 500px;
 padding-top: 40px;
-padding-right: 60px;
+padding-right: 25px;
 padding-left: 30px;
 font-size: 120px;
 color: rgb(255, 255, 255);
@@ -266,7 +266,10 @@ text-align: center;
     .somet {
       padding-right: 120px;
     }
-    
+    .navigation-manual{
+     
+      margin-left: -40px;
+    }
       }
 
 
@@ -347,7 +350,7 @@ text-align: center;
 }
 
 .manual-btn{
-  border: 3px solid #ff0000;
+  border: 3px solid #000000;
   padding: 5px;
   border-radius: 50px;
   cursor: pointer;
@@ -411,4 +414,20 @@ font-size: 75px;
 
 
 /*ikonit*/
+.teksti {
+  font-size:larger ;
+}
+.form {
+  border-radius: 80px;
+  border: 3px;
+}
 
+.form_laatikko {
+  background-color: orange;
+}
+.animals {
+  background-color: blue;
+}
+.ig {
+  background-color: red;
+}
