@@ -236,15 +236,7 @@ text-align: center;
       font-size: 60px;
       padding-top: 10px;
     }
-    .navigation-manual {
-      padding-right: 250px;
-    }
-    .slider {
-      max-width: 750px;
-    }
-    .slide img {
-      max-width: 750px;
-    }
+  
     
   } 
   
@@ -257,15 +249,7 @@ text-align: center;
   font-size: 60px;
   padding-top: 10px;
 }
-.navigation-manual {
-padding-right: 450px; }
 
-.slider {
-  max-width: 500px;
-  }
-  .slide img {
-    max-width: 500px;
-  }
   
 
   }
@@ -274,20 +258,14 @@ padding-right: 450px; }
       font-size: 50px;
       height: 300px;
     }
-    .navigation-manual {
-    padding-right: 600px; }
     
-    .slider {
-      max-width: 400px;
-      }
-      .slide img {
-        max-width: 400px;
-      }
       .box1 {
         font-size: 60px;
         padding-top: 10px;
       }
-    
+    .somet {
+      padding-right: 120px;
+    }
       }
 
 
@@ -424,14 +402,12 @@ h2 {
 font-size: 75px;
 }
 
-.some {
-  text-align: center;
-}
+
 
 .float {
   text-align: left;
 }
 
 
-
+/*ikonit*/
 
